@@ -1,0 +1,25 @@
+{
+  "name": "dex-pairs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.4",
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.3.0",
+    "graphql-request": "^6.0.0",
+    "web3": "^1.9.0"
+  }
+}
